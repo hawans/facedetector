@@ -1973,7 +1973,7 @@
   }
 
   function getModelUris(uri, defaultModelName) {
-      var defaultManifestFilename = defaultModelName + "-weights_manifest.json";
+      var defaultManifestFilename = "weights/"+defaultModelName + "-weights_manifest.json";
       if (!uri) {
           return {
               modelBaseUri: '',
